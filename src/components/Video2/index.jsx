@@ -1,7 +1,7 @@
 import React from "react";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
-//import "node_modules/video-react/dist/video-react.css"; 
+//import "node_modules/video-react/dist/video-react.css";
 
 const Video2 = () => {
   React.useEffect(() => {
@@ -10,10 +10,17 @@ const Video2 = () => {
   const [isOpen, setOpen] = React.useState(false);
   return (
     <section
-      // className="video bg-img parallaxie"
-      // style={{ backgroundImage: "url(/assets/img/bg-vid.png)" }}
+    // className="video bg-img parallaxie"
+    // style={{ backgroundImage: "url(/assets/img/bg-vid.png)" }}
     >
-      <iframe src="https://player.vimeo.com/video/834019993?h=423c488409" width="auto" height="auto" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      <iframe
+        src="https://player.vimeo.com/video/834019993?h=423c488409"
+        width="auto"
+        height="auto"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+      ></iframe>
       {/* {typeof window !== "undefined" && (
         <ModalVideo
           channel="vimeo"
