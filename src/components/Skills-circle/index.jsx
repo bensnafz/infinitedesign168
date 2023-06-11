@@ -1,7 +1,7 @@
 import React from "react";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
-import skillsCircleData from '../../data/skills-circle.json'
+// import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+// import "react-circular-progressbar/dist/styles.css";
+// import skillsCircleData from '../../data/skills-circle.json'
 
 const SkillsCircle = () => {
   const cpStyle = {
@@ -40,11 +40,11 @@ const SkillsCircle = () => {
             <div className="col-lg-3 col-md-6" key={skill.id}>
               <div className="item text-center">
                 <div className="skill">
-                  <CircularProgressbar
+                  {/* <CircularProgressbar
                     value={skill.val}
                     strokeWidth={2}
                     styles={cpStyle}
-                  />
+                  /> */}
                   <span className="playfont">{`${skill.val}%`}</span>
                 </div>
                 <h5>{skill.name}</h5>

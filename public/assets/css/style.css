@@ -1424,7 +1424,27 @@ body {
   cursor: pointer;
 }
 .btn-curve:hover {
+  background: #181818;
+  text-decoration: underline;
+}
+.btn-curve:hover a:hover{
   background: #c5a47e;
+}
+.btn-service {
+  background: transparent;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Prompt", sans-serif;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.btn-service:hover {
+  background: #181818;
 }
 .btn-curve:focus {
   outline: none;

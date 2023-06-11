@@ -21,7 +21,7 @@ const Home6 = () => {
       <Process2 />
       <Services6 />
       <VideoWithTestimonials />
-      <SkillsCircle2 />
+      {/* <SkillsCircle2 /> */}
       <Blogs5 />
     </MainSkin>
   );
