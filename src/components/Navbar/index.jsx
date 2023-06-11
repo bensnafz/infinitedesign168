@@ -32,7 +32,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
         <div className="container">
-          <Link href="/demos">
+          <Link href="/">
             <a className={`logo ${logoClass && logoClass}`}>
               <img src={appData.lightLogo} alt="logo" ref={logoRef} />
             </a>
@@ -56,13 +56,18 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link href="">
+                <Link href="/">
                   <a className="nav-link">หน้าแรก</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#">
+                <Link href="/about">
                   <a className="nav-link">เกี่ยวกับเรา</a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/service">
+                  <a className="nav-link">การบริการ</a>
                 </Link>
               </li>
               {/* <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -92,7 +97,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </div>
               </li> */}
               <li className="nav-item">
-                <Link href="#">
+                <Link href="/contact">
                   <a className="nav-link">ติดต่อเรา</a>
                 </Link>
               </li>

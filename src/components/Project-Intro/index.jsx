@@ -14,15 +14,12 @@ const ProjectIntro = () => {
           <div className="col-lg-8 offset-lg-1 col-md-8 mb-30">
             <div className="text">
               <p>
-                We are a Creative Agency &amp; Startup Studio that provides
-                Digital Products and Services turns to focus on client success.
-                We specialize in user interface design, including front-end
-                development which we consider to be an integral part.
+               Coming soon..
               </p>
             </div>
           </div>
 
-          <div className="col-lg-3">
+          {/* <div className="col-lg-3">
             <div className="item mt-30">
               <h6>Client</h6>
               <p>
@@ -53,7 +50,7 @@ const ProjectIntro = () => {
                 <Link href="#">Design</Link>
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

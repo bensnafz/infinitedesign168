@@ -4,7 +4,6 @@ import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import ProjectIntro from "../../components/Project-Intro";
 import NextProject from "../../components/Next-Project";
-import ProjectVideo from "../../components/Project-Video";
 
 const ProjectDetails = () => {
 
@@ -42,7 +41,6 @@ const ProjectDetails = () => {
         </div>
       </section>
 
-      <ProjectVideo />
 
       <section className="projdtal">
         <div className="justified-gallery">

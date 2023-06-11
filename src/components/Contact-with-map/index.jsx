@@ -43,7 +43,7 @@ const ContactWithMap = () => {
                 ></textarea>
               </div>
 
-              <button type="submit" className="btn-curve btn-color">
+              <button type="submit" className="btn-curve btn-color" disabled>
                 <span>Send Message</span>
               </button>
             </div>
