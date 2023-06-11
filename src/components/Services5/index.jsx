@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from 'next/image'
 
 const Services5 = () => {
   return (
@@ -29,9 +28,10 @@ const Services5 = () => {
           </div>
           <div className="col-lg-4 col-md-5 item-bx">
             <span className="icon">
-              <Image 
-                className="icon-color"
+              <img
                 src="/assets/img/icons/color-scheme.png"
+                className="icon-color"
+                alt=""
               />
             </span>
             <h5 className="mb-10">Mood&Tone</h5>
@@ -40,7 +40,6 @@ const Services5 = () => {
               <a className="more mt-30">ดูรายละเอียด</a>
             </Link>
           </div>
-
         </div>
         <div className="row bord-box wow fadeInUp">
           <div className="col-lg-4 col-md-5 item-bx">
@@ -68,7 +67,6 @@ const Services5 = () => {
             </Link>
           </div>
         </div>
-
       </div>
     </section>
   );
