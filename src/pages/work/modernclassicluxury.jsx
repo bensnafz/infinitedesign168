@@ -2,7 +2,6 @@ import React from 'react'
 import MainLayout from '../../layouts/main'
 import PageHeader from '../../components/Page-header'
 import initIsotope from "../../common/initIsotope";
-import Image from 'next/image'
 
 const Modernclassicluxury = ({ vis }) => {
     React.useEffect(() => {
@@ -10,8 +9,8 @@ const Modernclassicluxury = ({ vis }) => {
             if (window.Isotope) initIsotope();
         }, 1000);
     }, []);
-  return (
-    <>
+    return (
+        <>
             <MainLayout>
                 <PageHeader
                     title="Modern Classic Luxury"
@@ -33,7 +32,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernclassicluxury/01.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/01.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -44,7 +43,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/02.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/02.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -55,7 +54,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/03.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/03.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -66,7 +65,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/04.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/04.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -77,7 +76,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/05.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/05.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -88,7 +87,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/06.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/06.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -99,7 +98,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/07.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/07.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -110,7 +109,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/08.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/08.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -121,7 +120,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/09.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/09.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -132,7 +131,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/10.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/10.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -143,7 +142,7 @@ const Modernclassicluxury = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <Image src="/assets/img/works/modernclassicluxury/11.png" />
+                                        <img src="/assets/img/works/modernclassicluxury/11.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>บางกอกบูเลอวาร์ด</span>
@@ -156,7 +155,7 @@ const Modernclassicluxury = ({ vis }) => {
                 </section>
             </MainLayout>
         </>
-  )
+    )
 }
 
 export default Modernclassicluxury

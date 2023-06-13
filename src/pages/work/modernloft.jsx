@@ -2,7 +2,6 @@ import React from 'react'
 import MainLayout from '../../layouts/main'
 import PageHeader from '../../components/Page-header'
 import initIsotope from "../../common/initIsotope";
-import Image from 'next/image'
 
 const Modernloft = ({ vis }) => {
     React.useEffect(() => {
@@ -33,7 +32,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernloft/01.png" />
+                                        <img src="/assets/img/works/modernloft/01.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
@@ -44,7 +43,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernloft/02.png" />
+                                    <img src="/assets/img/works/modernloft/02.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
@@ -55,7 +54,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernloft/03.png" />
+                                    <img src="/assets/img/works/modernloft/03.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
@@ -66,7 +65,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernloft/04.png" />
+                                    <img src="/assets/img/works/modernloft/04.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
@@ -77,7 +76,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernloft/05.png" />
+                                    <img src="/assets/img/works/modernloft/05.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
@@ -88,7 +87,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernloft/06.png" />
+                                    <img src="/assets/img/works/modernloft/06.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>

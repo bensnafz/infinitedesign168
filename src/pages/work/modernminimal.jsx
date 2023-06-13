@@ -27,21 +27,21 @@ function Modernminimal() {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernminimal/01.jpg" />
+                                        <img src="/assets/img/works/modernminimal/01.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernminimal/02.jpg" />
+                                        <img src="/assets/img/works/modernminimal/02.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                        <Image src="/assets/img/works/modernminimal/03.jpg" />
+                                        <img src="/assets/img/works/modernminimal/03.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
