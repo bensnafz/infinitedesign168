@@ -2682,7 +2682,21 @@ body {
 .services-col .item-bx .more {
   font-size: 13px;
 }
-
+.hr-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hr-border-top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hr-border-bottom {
+  padding-bottom: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /* ====================== [ End services ] ====================== */
 /* ====================== [ Start brands ] ====================== */
 .clients-brand .brands:hover .img {

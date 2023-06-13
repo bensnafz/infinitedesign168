@@ -26,7 +26,7 @@ const Portfolio2 = () => {
                 <h5>Modern Luxury</h5>
               </div>
               <div className="more">
-                <Link href="/project-details">
+                <Link href="/work/modernluxury">
                   <a>
                     ดูรายละเอียด <i className="fas fa-chevron-right"></i>
                   </a>
@@ -39,7 +39,7 @@ const Portfolio2 = () => {
                 <h5>Modern Classic Luxury</h5>
               </div>
               <div className="more">
-                <Link href="/project-details">
+                <Link href="/work/modernclassicluxury">
                   <a>
                     ดูรายละเอียด <i className="fas fa-chevron-right"></i>
                   </a>
@@ -52,7 +52,7 @@ const Portfolio2 = () => {
                 <h5>Modern Loft</h5>
               </div>
               <div className="more">
-                <Link href="/project-details">
+                <Link href="/work/modernloft">
                   <a>
                     ดูรายละเอียด <i className="fas fa-chevron-right"></i>
                   </a>
@@ -65,7 +65,7 @@ const Portfolio2 = () => {
                 <h5>Modern Minimal</h5>
               </div>
               <div className="more">
-                <Link href="/project-details">
+                <Link href="/work/modernminimal">
                   <a>
                     ดูรายละเอียด <i className="fas fa-chevron-right"></i>
                   </a>

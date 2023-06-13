@@ -70,6 +70,11 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <a className="nav-link">การบริการ</a>
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link href="/work">
+                  <a className="nav-link">ผลงาน</a>
+                </Link>
+              </li>
               {/* <li className="nav-item dropdown" onClick={handleDropdown}>
                 <span
                   className="nav-link dropdown-toggle"

@@ -28,7 +28,9 @@ function MyApp({ Component, pageProps }) {
         strategy="beforeInteractive"
         src="/assets/js/splitting.min.js"
       ></Script>
-
+      <Script
+        src="https://kit.fontawesome.com/d7d61d0e3d.js" crossOrigin="anonymous"
+      />
       <Script
         id="simpleParallax"
         src="/assets/js/simpleParallax.min.js"

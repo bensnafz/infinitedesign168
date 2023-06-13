@@ -22,18 +22,10 @@ const Home7 = () => {
       <Services5 />
       <Portfolio2 />
       {/* <WorkWithoutFilter /> */}
-      <div
-            className="filtering text-center col-12 wow fadeInUp full-bg"
-            data-wow-delay=".3s"
-            // style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;"
-          >
-            <div
-              className="filter bg-img bg-repeat"
-              style={{ backgroundImage: `url(/assets/img/line-pattern1.png)` }}
-            >
-            <br /><br /><br />
-            </div>
-          </div>
+      <div className="hr-container">
+        <div className="hr-border-top"></div>
+        <div className="hr-border-bottom"></div>
+      </div>
       <Video />
       {/* <Team3 /> */}
       {/* <Testimonials1 bigTitle /> */}
