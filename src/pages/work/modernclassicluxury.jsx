@@ -23,12 +23,14 @@ const Modernclassicluxury = ({ vis }) => {
                 />
                 <section className="works section-padding">
                     <div className="container">
-                        <div className="row gallery">
-                            <div className="col-md-6 items mt-0">
-                                <div className="main-header mb-0">
-                                    <h5>By Infinite168design.</h5 >
-                                </div>
+                        <div className="row header-container-work">
+                            <div className="header-work">
+                                <h5>
+                                    By Infinite168design.
+                                </h5>
                             </div>
+                        </div>
+                        <div className="row gallery">
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">

@@ -23,12 +23,14 @@ const Modernloft = ({ vis }) => {
                 />
                 <section className="works section-padding">
                     <div className="container">
-                        <div className="row gallery">
-                            <div className="col-md-6 items mt-0">
-                                <div className="main-header mb-0">
-                                    <h5>By Infinite168design.</h5 >
-                                </div>
+                        <div className="row header-container-work">
+                            <div className="header-work">
+                                <h5>
+                                    By Infinite168design.
+                                </h5>
                             </div>
+                        </div>
+                        <div className="row gallery">
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
@@ -43,7 +45,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <img src="/assets/img/works/modernloft/02.png" alt="" />
+                                        <img src="/assets/img/works/modernloft/02.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
@@ -54,7 +56,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <img src="/assets/img/works/modernloft/03.png" alt="" />
+                                        <img src="/assets/img/works/modernloft/03.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
@@ -65,7 +67,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <img src="/assets/img/works/modernloft/04.png" alt="" />
+                                        <img src="/assets/img/works/modernloft/04.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
@@ -76,7 +78,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <img src="/assets/img/works/modernloft/05.png" alt="" />
+                                        <img src="/assets/img/works/modernloft/05.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
@@ -87,7 +89,7 @@ const Modernloft = ({ vis }) => {
                             <div className="col-md-6 items">
                                 <div className="item">
                                     <div className="img">
-                                    <img src="/assets/img/works/modernloft/06.png" alt="" />
+                                        <img src="/assets/img/works/modernloft/06.png" alt="" />
                                     </div>
                                     <div className={`cont ${vis ? "vis" : ""}`}>
                                         <span>Infinite168Design</span>
