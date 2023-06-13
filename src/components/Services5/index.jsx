@@ -48,7 +48,7 @@ const Services5 = () => {
                 height={65}
               />
             </span>
-            <h5 className="mb-5">Mood&Tone</h5>
+            <h5 className="mb-10">Mood&Tone</h5>
             <h6 className="mb-5">ภาพบรรยกาศตัวอย่าง</h6>
             <Link href="/service/moodandtone" passHref>
               <h5>
@@ -64,7 +64,7 @@ const Services5 = () => {
         <div className="row bord-box wow fadeInUp">
           <div className="col-lg-4 col-md-5 item-bx">
             <span className="icon flaticon-computer"></span>
-            <h5 className="mb-5">3D Render</h5>
+            <h5 className="mb-10">3D Render</h5>
             <h6 className="mb-5">อกกแบบภาพ 3 มิติ</h6>
             <Link href="/service/treedrender" passHref>
               <h5>
@@ -78,7 +78,7 @@ const Services5 = () => {
           </div>
           <div className="col-lg-4 col-md-5 item-bx">
             <span className="icon flaticon-sketch"></span>
-            <h5 className="mb-5">Shop Drawing</h5>
+            <h5 className="mb-10">Shop Drawing</h5>
             <h6 className="mb-5">เขียนแบบก่อสร้าง</h6>
             <Link href="/service/shopdrawing" passHref>
               <h5>
@@ -92,7 +92,7 @@ const Services5 = () => {
           </div>
           <div className="col-lg-4 col-md-5 item-bx">
             <span className="icon flaticon-renovation"></span>
-            <h5 className="mb-5">BOQ Furniture</h5>
+            <h5 className="mb-10">BOQ Furniture</h5>
             <h6 className="mb-5">ประเมินราคา</h6>
             <Link href="/service/boqfurniture" passHref>
               <h5>
