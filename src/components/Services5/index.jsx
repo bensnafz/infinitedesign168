@@ -44,6 +44,8 @@ const Services5 = () => {
               <Image 
                 src="/assets/img/icons/color-scheme.png"
                 className="icon-color"
+                width={65}
+                height={65}
               />
             </span>
             <h5 className="mb-5">Mood&Tone</h5>
