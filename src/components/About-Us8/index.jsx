@@ -24,7 +24,7 @@ import React from "react";
           <div className="col-lg-7 img">
             <img src="/assets/img/maincontent/c1400-844.png" alt="" />
 
-            <div className="feat mt-30">
+            {/* <div className="feat mt-30">
               <div className="item">
                 <div>
                   <h5>01</h5>
@@ -43,7 +43,7 @@ import React from "react";
                   <h6>3D Modeling</h6>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ const WorkHeader = ({ title, content, center }) => {
     >
       <div className="container">
         <div className={`row ${center ? "justify-content-center" : ""}`}>
-          <div className="col-lg-9">
+          <div className="col-lg-4">
             <div className={`cont ${center ? "text-center" : ""}`}>
               <h2>
                 {typeof title == "object" ? (
