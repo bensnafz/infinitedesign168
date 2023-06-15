@@ -2,7 +2,6 @@ import React from 'react'
 import MainLayout from '../../layouts/main'
 import PageHeader from '../../components/Page-header'
 import initIsotope from "../../common/initIsotope";
-import Image from 'next/image'
 
 const Sitesurvey = ({ vis }) => {
   React.useEffect(() => {
@@ -33,7 +32,7 @@ const Sitesurvey = ({ vis }) => {
               <div className="col-md-6 items">
                 <div className="item">
                   <div className="img">
-                    <Image src="/assets/img/service/sitesurvey/01.jpg" />
+                    <img src="/assets/img/service/sitesurvey/01.jpg" alt="" />
                   </div>
                   <div className={`cont ${vis ? "vis" : ""}`}>
                   </div>
@@ -42,7 +41,7 @@ const Sitesurvey = ({ vis }) => {
               <div className="col-md-6 items">
                 <div className="item">
                   <div className="img">
-                    <Image src="/assets/img/service/sitesurvey/02.jpg" />
+                    <img src="/assets/img/service/sitesurvey/03.jpg" alt="" />
                   </div>
                   <div className={`cont ${vis ? "vis" : ""}`}>
                   </div>
@@ -51,7 +50,7 @@ const Sitesurvey = ({ vis }) => {
               <div className="col-md-6 items">
                 <div className="item">
                   <div className="img">
-                    <Image src="/assets/img/service/sitesurvey/03.jpg" />
+                    <img src="/assets/img/service/sitesurvey/04.jpg" alt="" />
                   </div>
                   <div className={`cont ${vis ? "vis" : ""}`}>
                   </div>
@@ -60,7 +59,7 @@ const Sitesurvey = ({ vis }) => {
               <div className="col-md-6 items">
                 <div className="item">
                   <div className="img">
-                    <Image src="/assets/img/service/sitesurvey/04.jpg" />
+                    <img src="/assets/img/service/sitesurvey/05.jpg" alt="" />
                   </div>
                   <div className={`cont ${vis ? "vis" : ""}`}>
                   </div>
