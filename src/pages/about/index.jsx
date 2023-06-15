@@ -25,7 +25,7 @@ const About = () => {
       {/* <Services3 bigTitle grid /> */}
       {/* <Testimonials1 bigTitle /> */}
       {/* <Team2 /> */}
-      <Skills2 />
+      {/* <Skills2 /> */}
     </MainLayout>
   );
 };
