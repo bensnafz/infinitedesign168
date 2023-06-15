@@ -98,8 +98,8 @@ const Footer = ({ classText }) => {
                 <img src="/assets/img/logo-light.png" alt="" />
               </div>
               <div className="social">
-                <Link href="https://www.facebook.com/Infinite168Design" target="_blank">
-                  <a>
+                <Link href="https://www.facebook.com/Infinite168Design">
+                  <a target="_blank">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </Link>
