@@ -83,54 +83,6 @@ const Sitesurvey = ({ vis }) => {
             </div>
           </div>
         </section>
-        <div className="container">
-          <div className="card">
-            <div className="card-body">
-              <div className="row">
-                <h5 className='txt-sitesurvey-header'>
-                  โปรโมชั่นพิเศษ ฟรี!! สำรวจ
-                </h5>
-              </div>
-              <div className="row txt-sitesurvey-body">
-                <h7 className='txt-sitesurvey-body-txt'>
-                  ข้อความ : อินฟินิท 168 ดีไซน์ มีทีมสำรวจหน้างานโดยทีมมัณฑนากรทีมสถาปนิกและทีมวิศวกรมืออาชีพ
-                  สามารถให้คำปรึกษาและแนะนำลูกค้าได้ที่หน้างาน ให้ลูกค้าได้งานที่มีคุณภาพและคุ้มค่ามากที่สุด
-                  ทีมงานจะเช็คงานระบบ วัดระยะพื้นที่ เพื่อทำการวางแปลนเฟอร์นิเจอร์ และ Mood and Tone
-                  เพื่อให้ลูกค้าเห็นภาพเบื้องต้นก่อนทำการออกแบบภาพ 3มิติ
-                </h7>
-                <br /><br />
-                <p>
-                  <p><h7 className='txt-sitesurvey-body-txt'>ค่าสำรวจหน้างาน</h7></p>
-                  <h7 className='txt-sitesurvey-body-txt'>
-                    ปกติ 2000 บาท กทมและปริมณฑล (ทีมมัณฑนากร) <br />
-                  </h7>
-                  <h7 className='txt-sitesurvey-body-txt'>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3000 บาท กทมและปริมณฑล (ทีมมัณฑนากรและสถาปนิก)
-                  </h7><br />
-                  <h7 className='txt-sitesurvey-body-txt'>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5000 บาท กทมและปริมณฑล (ทีมมัณฑนากร /สถาปนิก/วิศวกร)
-                  </h7>
-                </p>
-                <br />
-              </div>
-              <div className="row txt-sitesurvey-body">
-                <h7 className='txt-sitesurvey-body-txt'>
-                  ทีมสถาปนิกและวิศวกร จะเหมาะสำหรับบ้านลูกค้าที่มีงานต่อเติมและทุบรื้อ ที่เกี่ยวข้องกับโครงสร้าง สามารถสอบถามรายละเอียดเพิ่มเติม
-                </h7>
-              </div>
-              <div className="row txt-sitesurvey-body">
-                <h7 className='txt-sitesurvey-body-txt'>
-                  * ต่างจังหวัดคิดราคาตามระยะทาง โครงสร้าง สามารถสอบถามรายละเอียดเพิ่มเติม
-                </h7>
-              </div>
-              <div className="row txt-sitesurvey-body">
-                <h7 className='txt-sitesurvey-body-txt'>
-                  ** เช็คโปรโมชั่น ณ ช่วงเวลานั้นอีกครั้ง **
-                </h7>
-              </div>
-            </div>
-          </div>
-        </div>
       </MainLayout>
     </>
   )
