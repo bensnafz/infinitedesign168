@@ -5,6 +5,11 @@
 @import "/assets/css/ionicons.min.css";
 @import "/assets/css/pe-icon-7-stroke.css";
 
+@font-face {
+  font-family: Prompt;
+  src: url(Prompt-Regular.woff);
+}
+
 /* ====================== [ Start Typography d1ed5d abe5ca abe5e2 ] ====================== */
 * {
   margin: 0;
@@ -21,6 +26,15 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
+  font-family: "Prompt", sans-serif;
+}
+div {
+  font-family: "Prompt", sans-serif;
+}
+body.homepage h5 {
+  font-family: "Prompt", sans-serif;
+}
+body.homepage {
   font-family: "Prompt", sans-serif;
 }
 
@@ -1612,6 +1626,7 @@ body {
   letter-spacing: 1px;
   padding: 15px 7px;
   margin: 10px;
+  font-family: "Prompt", sans-serif;
 }
 
 .navbar .navbar-nav .dropdown-menu {
@@ -6294,4 +6309,44 @@ footer .item .copy-right p a {
 
 .line-social {
   background-color: #07b53b;
+}
+
+.txt-sitesurvey-header {
+  color: red !important;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.txt-sitesurvey-body {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.txt-sitesurvey-body-txt {
+  color: #000;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.txt-container-sitesurvey {
+  margin-left: 10rem;
+  margin-right: 1rem;
+}
+
+.txt-click a:hover{
+  color: red !important;
+}
+
+.container-emp {
+  margin-left: 20rem;
+}
+
+.txt-team-position {
+  color: #c5a47e;
+}
+
+.text-thai {
+  font-family: 'Prompt', sans-serif;
 }

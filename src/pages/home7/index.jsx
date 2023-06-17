@@ -27,8 +27,8 @@ const Home7 = () => {
         <div className="hr-border-bottom"></div>
       </div>
       <Video />
-      {/* <Team3 /> */}
-      {/* <Testimonials1 bigTitle /> */}
+      <Team3 />
+      <Testimonials1 bigTitle />
       {/* <Blogs3 smallTitle /> */}
     </MainLayout>
   );
