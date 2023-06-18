@@ -1,9 +1,9 @@
 import React from "react";
-import appData from '../../data/app.json'
+import appData from "../../data/app.json";
 
 const ContactWithMap = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="row">
         <div className="col-lg-6 map-box">
           <iframe src={appData.mapIframe}></iframe>

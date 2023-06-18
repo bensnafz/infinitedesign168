@@ -9,7 +9,7 @@ function index() {
     <MainLayout>
         <WorkHeader
             title={{
-            first: "Portfolio",
+            first: "ผลงาน",
             //second: "By Infinfinite168design",
             }}
             // title = "text",
