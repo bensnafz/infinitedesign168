@@ -10,6 +10,7 @@ import Portfolio2 from "../../components/Portfolio2";
 import Testimonials1 from "../../components/Testimonials1";
 import WorkWithoutFilter from "../../components/Work-Without-Filter";
 import IntroWithVertical2 from "../../components/Intro-with-vertical2";
+import Intro from "../../components/Intro-Background"
 
 const Home7 = () => {
   React.useEffect(() => {
@@ -17,7 +18,8 @@ const Home7 = () => {
   });
   return (
     <MainLayout>
-      <IntroWithVertical2 />
+      {/* <IntroWithVertical2 /> */}
+      <Intro />
       <AboutUs8 />
       <Services5 />
       <Portfolio2 />

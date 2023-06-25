@@ -30,10 +30,7 @@ const IntroWithVertical2 = () => {
   return (
     <>
       <header className="slid-half">
-        <div
-          id="js-cta-slider"
-          className="cta__slider-wrapper nofull swiper-container"
-        >
+        <div id="" className="cta__slider-wrapper swiper-container">
           {!load ? (
             <Swiper
               speed={800}
@@ -80,7 +77,7 @@ const IntroWithVertical2 = () => {
                   swiper.pagination.update();
                 });
               }}
-              className="swiper-wrapper cta__slider"
+              className="swiper-wrapper "
             >
               {intro2Data.map((slide) => (
                 <SwiperSlide
@@ -88,11 +85,14 @@ const IntroWithVertical2 = () => {
                   className="cta__slider-item swiper-slide"
                 >
                   <div className="media-wrapper slide-inner valign">
-                    <div
-                      className="bg-img"
+                    {/* <div
+                      className="bg-img img-fluid"
                       style={{ backgroundImage: `url(${slide.image})` }}
                       data-overlay-dark="5"
-                    ></div>
+                    ></div> */}
+                    <div className="image-container">
+                      <img src="assets/img/contentIndex/index01.png" alt="" />
+                    </div>
                     <div className="container">
                       <div className="row">
                         <div className="col-lg-10">

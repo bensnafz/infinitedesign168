@@ -9,13 +9,6 @@ const Portfolio2 = () => {
   return (
     <>
       <div className="container">
-        <br />
-        <div className="row">
-          <div className="col align-self-center">
-            <h3>Design By Infinite168</h3>
-          </div>
-        </div>
-        <br />
       </div>
       <section className="portfolio full-bg">
         <div className="container-fluid">

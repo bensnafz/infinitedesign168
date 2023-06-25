@@ -9,11 +9,12 @@ function index() {
     <MainLayout>
         <WorkHeader
             title={{
-            first: "ผลงาน",
+            first: "Design Works",
+            //second: "Design Works"
             //second: "By Infinfinite168design",
-            }}
-            // title = "text",
-            //content="Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi."
+            }} 
+            //title = "text"
+            // content="Design Works"
         />
         <Portfolio2 />
     </MainLayout>
