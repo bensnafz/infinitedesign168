@@ -19,7 +19,7 @@ const Sitesurvey = ({ vis }) => {
             { id: 2, name: "service", url: "/service/" },
             { id: 3, name: "sitesurvey", url: "/service/sitesurvey" },
           ]}
-          image="/assets/img/service/sitesurvey/bg.png"
+          image="/assets/img/service/sitesurvey/03.jpg"
         />
         <section className="works section-padding">
           <div className="container">
@@ -39,7 +39,7 @@ const Sitesurvey = ({ vis }) => {
             </center>
             <div className="container-sitesurvey">
               <section className="about section-padding">
-                <div className="row txt-container-sitesurvey">
+                <div className="row txt-container">
                   <div className="col-lg-10">
                     <div className="txt-cont align-middle">
                       <div className="title-about-text">

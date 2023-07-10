@@ -230,10 +230,14 @@ span:hover {
 }
 
 .bg-img {
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center; */
   width: 100%;
   height: auto;
+  background-position: center center;
+  background-attachment: repeat;
+  background-size: cover;
 }
 
 .bg-center {
@@ -6149,6 +6153,19 @@ footer .item .copy-right p a {
     padding: 0;
   }
 
+  .pages-header {
+    height: 50vh;
+    width: 90%;
+    background-size: cover;
+  }
+
+  .pages-header .bg-img {
+    height: 50vh;
+    height: auto;
+    max-width: 90%;
+    background-size: cover;
+  }
+
   .pages-header .cont .path {
     font-size: 15px;
   }
@@ -6269,6 +6286,22 @@ footer .item .copy-right p a {
   .clients-brand .img {
     width: 60px;
   }
+
+  .caption {
+    margin-top: 10vh;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+
+  }
+  .caption .thin {
+    letter-spacing: 2px;
+  }
+  .caption h1 {
+    font-size: 28px;
+  }
+
+  .
 }
 
 /* ====================== [ End Responsive ] ====================== */
@@ -6357,9 +6390,10 @@ footer .item .copy-right p a {
   margin-right: 0.5rem;
 }
 
-.txt-container-sitesurvey {
-  margin-left: 10rem;
-  margin-right: 1rem;
+.txt-container {
+  /* margin-left: 10rem;
+  margin-right: 1rem; */
+  /* padding-left: 14rem; */
 }
 
 .txt-click a:hover {

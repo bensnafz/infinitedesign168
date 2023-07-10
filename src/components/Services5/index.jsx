@@ -40,15 +40,7 @@ const Services5 = () => {
             </Link>
           </div>
           <div className="col-lg-4 col-md-5 item-bx">
-            <span className="icon flaticon-interior-design">
-              {/* <Image 
-                src="/assets/img/icons/color-scheme.png"
-                className="img-icon"
-                width={65}
-                height={65}
-              /> */}
-
-            </span><br />
+            <span className="icon flaticon-interior-design"></span>
             <h6 className="mb-10">Mood&Tone</h6>
             <h7 className="mb-5">ภาพบรรยกาศตัวอย่าง</h7>
             <Link href="/service/moodandtone" passHref>
@@ -61,8 +53,6 @@ const Services5 = () => {
               </h5>
             </Link>
           </div>
-        </div>
-        <div className="row bord-box wow fadeInUp">
           <div className="col-lg-4 col-md-5 item-bx">
             <span className="icon flaticon-computer"></span>
             <h6 className="mb-10">3D Render</h6>
