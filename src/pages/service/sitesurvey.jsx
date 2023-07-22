@@ -43,7 +43,7 @@ const Sitesurvey = ({ vis }) => {
                   <div className="col-lg-10">
                     <div className="txt-cont align-middle">
                       <div className="title-about-text">
-                        <h5>โปรโมชั่นพิเศษ ฟรี!! สำรวจ</h5>
+                        {/* <h5>โปรโมชั่นพิเศษ ฟรี!! สำรวจ</h5> */}
                       </div>
                       <br />
                       <p className="mb-20 ">
@@ -77,6 +77,7 @@ const Sitesurvey = ({ vis }) => {
                       </p>
                       <br />
                       <p>** เช็คโปรโมชั่น ณ ช่วงเวลานั้นอีกครั้ง **</p>
+                      <p>** โทร: 061-899-6168 หรือ 095-575-4653 คุณสไปรท์**</p>
                     </div>
                   </div>
                 </div>
