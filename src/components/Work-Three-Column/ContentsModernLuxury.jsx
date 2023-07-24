@@ -22,7 +22,7 @@ function ContentsModernLuxury() {
             <span className="text-white">
               ดอนเมือง แจ้งวัฒนะ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <button className="btn btn-outline-light">
-                <Link href="/work2/modernluxury">ดูรายละเอียด</Link>
+                <Link href="/work2/modernluxury">ดูรายละเอียด </Link>
               </button>
             </span>
           </div>

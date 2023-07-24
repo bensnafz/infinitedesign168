@@ -7,6 +7,7 @@ import Blogs3 from "../../components/Blogs3";
 import AboutUs8 from "../../components/About-Us8";
 import Services5 from "../../components/Services5";
 import Portfolio2 from "../../components/Portfolio2";
+import Portfolio1 from "../../components/Portfolio1";
 import Testimonials1 from "../../components/Testimonials1";
 import WorkWithoutFilter from "../../components/Work-Without-Filter";
 import IntroWithVertical2 from "../../components/Intro-with-vertical2";
@@ -31,7 +32,7 @@ const Home7 = () => {
       <Video />
       {/* <Team3 /> */}
       {/* <Testimonials1 bigTitle /> */}
-      {/* <Blogs3 smallTitle /> */}
+      <Blogs3 smallTitle />
     </MainLayout>
   );
 };

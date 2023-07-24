@@ -12,50 +12,45 @@ const Blogs3 = ({ smallTitle }) => {
           </div>
         ) : (
           <div className="section-head">
-            <h3>News</h3>
+            <h3>Blog</h3>
           </div>
         )}
         <div className="row">
           <div className="col-lg-4">
             <div
-              className="item bg-img md-mb50 wow fadeInUp"
+              className="item active bg-img md-mb50 wow fadeInUp"
               data-wow-delay=".3s"
-              style={{ backgroundImage: "url(/assets/img/blog/1.jpg)" }}
+              style={{ backgroundImage: "url(/assets/img/blog/modernluxury/1.jpg)" }}
             >
               <div className="cont">
                 <Link href="/blog-details">
                   <a className="date">
                     <span>
-                      <i>06</i> August
+                      <i>21</i> July
                     </span>
                   </a>
                 </Link>
                 <div className="info">
                   <Link href="#">
-                    <a className="author">
-                      <span>Admin</span>
-                    </a>
-                  </Link>
-                  <Link href="/blog-details">
-                    <a className="tag">
-                      <span>WordPress</span>
+                    <a className="author main-color-font">
+                      <span>Modern Luxury</span>
                     </a>
                   </Link>
                 </div>
                 <h6>
-                  <Link href="/blog-details">
-                    Double rectangle houses from old containers.
+                  <Link href="#">
+                    แกรนดิโอ รามอินทรา-วงแหวน
                   </Link>
                 </h6>
                 <div className="btn-more">
                   <Link href="/blog-details">
-                    <a className="simple-btn">Read More</a>
+                    <a className="simple-btn  ">อ่านต่อ</a>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          {/* <div className="col-lg-4">
             <div
               className="item active bg-img md-mb50 wow fadeInUp"
               data-wow-delay=".5s"
@@ -93,8 +88,8 @@ const Blogs3 = ({ smallTitle }) => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-4">
+          </div> */}
+          {/* <div className="col-lg-4">
             <div
               className="item bg-img wow fadeInUp"
               data-wow-delay=".8s"
@@ -132,7 +127,7 @@ const Blogs3 = ({ smallTitle }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
